@@ -1,18 +1,21 @@
 nav {
     width: 100%;
-    background-color: black;
+    background-color: #0f3a41;
     min-height: 10vh;
+    display: flex; 
+    align-items: center; 
 }
 
 ul {
     display: flex;
-    justify-content: space-around;
-    width: 50%;
-
+    list-style-type: none;
+    margin: 0; 
+    padding: 0; 
 }
 
-li{
+li {
     color: goldenrod;
     font-size: 18px;
-    list-style-type: none;
+    margin-right: 30px; 
+    padding-left: 70px;
 }

@@ -13,7 +13,7 @@ const CardUser = ({ img, name, description, date }) => {
           component="img"
           height="140"
           image={img}
-          alt="green iguana"
+          alt="imagen del juego"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
