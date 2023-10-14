@@ -1,16 +1,17 @@
-import "./Header.css";
 import img from "./logo.png";
+import React from "react";
+import "./Header.css";
+import {Link} from "react-router-dom"
 
-const Header = (props) => {
+
+const Header = () => {
   return (
     <div className="Header">
-      <div className="header-content">
-        <img src={img} alt="logo bayside" />
-        <div className="header-text">
-          <h1>{props.title}</h1>
-          <h2>{props.subtitle}</h2>
-        </div>
-      </div>
+      <Link to="/">
+        <img src={img} alt="logo bayside" width={80} />
+      </Link>
+      <h1>Bayside team</h1>
+      <h2>Quienes somos jasjajsjajsjasj</h2>
     </div>
   );
 };
