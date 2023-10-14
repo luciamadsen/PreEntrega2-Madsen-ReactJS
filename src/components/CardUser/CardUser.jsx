@@ -5,6 +5,10 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 
+
+// import valorant from "../../assets/img/valorant.png";
+
+
 const CardUser = ({ img, name, description, date }) => {
   return (
     <Card sx={{ maxWidth: 345 }}>
@@ -14,6 +18,7 @@ const CardUser = ({ img, name, description, date }) => {
           height="140"
           image={img}
           alt="imagen del juego"
+          
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
