@@ -28,7 +28,7 @@ const NavBar = () => {
           Contacto
         </Link>
         <div className="li" onClick={handleMenuClick}>
-          Categorías
+          Productos
         </div>
         <Menu
           anchorEl={anchorEl}
@@ -36,15 +36,16 @@ const NavBar = () => {
           onClose={handleMenuClose}
         >
           <MenuItem onClick={handleMenuClose}>
-            <Link to="/Category/Ropa">Ropa</Link>
+            <Link to="/Category/Stickers">Stickers</Link>
           </MenuItem>
           <MenuItem onClick={handleMenuClose}>
             <Link to="/Category/Accesorio">Accesorios</Link>
           </MenuItem>
           <MenuItem onClick={handleMenuClose}>
-            <Link to="/Category/Decoración">Decoración</Link>
+            <Link to="/Category/Remera">Remera</Link>
           </MenuItem>
         </Menu>
+        {/* <li><ShoppingCartIcon /></li> */}
       </ul>
     </nav>
   );

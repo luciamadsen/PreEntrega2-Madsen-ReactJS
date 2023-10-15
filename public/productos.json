@@ -1,50 +1,50 @@
 [
     {
       "id": 1,
-      "name": "Ramo de flores",
-      "date": "Especial por el día de la primavera!",
-      "description": "Incluye: 1 girasol, 3 tulipanes y 2 chocolates.",
-      "img": "/img/ramo-girasoles.jpg",
-      "category": "Decoración"
+      "name": "Remera oficial",
+      "date": "Edición especial",
+      "description": "Nuestra remera oficial es una prenda imprescindible. Con un diseño moderno y cómodo apoyas a tu equipo favorito en los torneos",
+      "img": "/img/remera.png",
+      "category": "Remera"
     },
     {
       "id": 2,
-      "name": "Gorrito",
-      "date": "Ideal para el invierno!",
-      "description": "Pedilo en el color que desees",
-      "img": "/img/gorritos.jpg",
+      "name": "Pin logo",
+      "date": "Ideal para mostrar tu pasión por los Esports",
+      "description": "Elige tu color favorito y luce orgulloso tu afiliación a la comunidad de gamers.",
+      "img": "/img/pin.png",
       "category": "Accesorio"
     },
     {
       "id": 3,
-      "name": "Mini Bag",
-      "date": "Arma tu look ideal!",
-      "description": "Pedilo en el color que desees",
-      "img": "/img/mini-bags.jpg",
+      "name": "Gorra Bayside",
+      "date": "Completa tu look gamer con estilo!",
+      "description": "Disponible en varios colores para que encuentres la que mejor se adapte a tu personalidad gamer.",
+      "img": "/img/gorra2.png",
       "category": "Accesorio"
     },
     {
       "id": 4,
-      "name": "Mitones",
-      "date": "Ideales para el invierno!",
-      "description": "Pedilo en el color que desees",
-      "img": "/img/mitones.jpg",
+      "name": "Anteojos",
+      "date": "Protege tus ojos durante tus largas sesiones de juego",
+      "description": "Estos elegantes anteojos te darán un aspecto increíble. ",
+      "img": "/img/lentes.png",
       "category": "Accesorio"
     },
     {
       "id": 5,
-      "name": "Manguitas",
-      "date": "Dale un toque especial a tus looks!",
-      "description": "Pedilo en el color que desees",
-      "img": "/img/manguitas.jpg",
-      "category": "Ropa"
+      "name": "Logo Bayside circulo",
+      "date": "Ideal para pegar en la computadora",
+      "description": "Elige el color y tamaño que desees para darle un toque único a tu set up",
+      "img": "/img/stickerlogo.png",
+      "category": "Stickers"
     },
     {
       "id": 6,
-      "name": "Sweater",
+      "name": "Bayside + logo",
       "date": "Ideal para el invierno!",
       "description": "En el color que vos elijas y a medida!",
-      "img": "/img/sweater.jpg",
-      "category": "Ropa"
+      "img": "/img/stickerbay.png",
+      "category": "Stickers"
     }
   ]

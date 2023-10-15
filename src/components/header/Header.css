@@ -1,24 +1,16 @@
-.Header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #175864;
-    width: 100%;
-    min-height: 10vh;
-  }
-  
-  .header-content {
-    display: flex;
-    align-items: center;
-  }
-  
-  .header-text {
-    color: goldenrod;
-    margin-left: 20px; 
-  }
-  
-  .Header img {
-    max-width: 35%;
-    max-height: 250px;
-  }
-  
+h1{
+  color: #C79215;
+  /* padding-right: 100px; */
+}
+
+h3{
+  color: #E6C984;
+  /* padding-right: 50px; */
+}
+
+.Header{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color: #175864;
+}
