@@ -5,6 +5,7 @@ const ContactPage = () => {
   return (
     <div>
       <h2> Contactanos proximamente </h2>
+      <h4> 10% cargando.... </h4>
       <h4> 50% cargando.... </h4>
       <h1>Quedate atento</h1>
   </div>
