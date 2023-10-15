@@ -3,6 +3,7 @@ import { Menu, MenuItem } from "@mui/material";
 import { useState } from "react";
 import "./NavBar.css";
 /* import CartWidget from "../CartWidget/CartWidget"; */
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
 const NavBar = () => {
   const [anchorEl, setAnchorEl] = useState(null);
@@ -22,13 +23,14 @@ const NavBar = () => {
           Home
         </Link>
         <Link className="li" to="/About">
-          Quienes somos
+          Equipos
         </Link>
         <Link className="li" to="/Contact">
           Contacto
         </Link>
         <div className="li" onClick={handleMenuClick}>
           Productos
+          <li><ShoppingCartIcon /></li>
         </div>
         <Menu
           anchorEl={anchorEl}
@@ -44,8 +46,9 @@ const NavBar = () => {
           <MenuItem onClick={handleMenuClose}>
             <Link to="/Category/Remera">Remera</Link>
           </MenuItem>
+          
         </Menu>
-        {/* <li><ShoppingCartIcon /></li> */}
+        
       </ul>
     </nav>
   );

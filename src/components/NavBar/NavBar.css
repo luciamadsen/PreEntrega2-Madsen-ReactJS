@@ -15,6 +15,7 @@ ul {
 }
 
 .li {
+    display: flex;
     text-decoration: none;
     color: #FFFFFF;
     font-size: 18px;

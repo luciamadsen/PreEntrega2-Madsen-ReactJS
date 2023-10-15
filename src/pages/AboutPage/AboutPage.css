@@ -1,12 +1,14 @@
-h1{
+.prueba{
+    h2{
     display: flex;
     padding: 30px;
     align-items: center;
     justify-content: center;
-}
-
-h4{
+    }
+    h4{
     display: flex;
     padding: 100px;
     background-color: #ffffff;
+    }
 }
+
