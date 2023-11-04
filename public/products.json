@@ -1,75 +1,57 @@
 [
     {
       "id": 1,
-      "name": "Remera oficial",
-      "price":10000,
-      "date": "Edición especial",
+      "title": "Remera oficial",
       "description": "Nuestra remera oficial es una prenda imprescindible. Con un diseño moderno y cómodo apoyas a tu equipo favorito en los torneos",
       "img": "/products_img/remera.png",
-      "rating":{"rate":3.9,
-		  "count":120},
+      "price":10000,
 		  "stock":10,
-      "category": "Remera"
+      "category": "Indumentaria"
     },
     {
       "id": 2,
-      "name": "Pin logo",
-      "price":100,
-      "date": "Ideal para mostrar tu pasión por los Esports",
+      "title": "Pin logo",
       "description": "Elige tu color favorito y luce orgulloso tu afiliación a la comunidad de gamers.",
       "img": "/products_img/pin.png",
-      "rating":{"rate":4.1,
-		  "count":259},
+      "price":100,
 		  "stock":2,
       "category": "Accesorio"
     },
     {
       "id": 3,
-      "name": "Gorra Bayside",
-      "price":5000,
-      "date": "Completa tu look gamer con estilo!",
+      "title": "Gorra Bayside",
       "description": "Disponible en varios colores para que encuentres la que mejor se adapte a tu personalidad gamer.",
       "img": "/products_img/gorra2.png",
-      "rating":{"rate":4.7,
-		  "count":500},
+      "price":5000,
 		  "stock":7,
-      "category": "Accesorio"
+      "category": "Indumentaria"
     },
     {
       "id": 4,
-      "name": "Anteojos",
-      "price":2000,
-      "date": "Protege tus ojos durante tus largas sesiones de juego",
+      "title": "Anteojos",
       "description": "Estos elegantes anteojos te darán un aspecto increíble. ",
       "img": "/products_img/lentes.png",
-      "rating":{"rate":2.1,
-		  "count":430},
+      "price":2000,
 		  "stock":5,
       "category": "Accesorio"
     },
     {
       "id": 5,
-      "name": "Logo Bayside circulo",
-      "price":100,
-      "date": "Ideal para pegar en la computadora",
+      "title": "Logo Bayside circulo",
       "description": "Elige el color y tamaño que desees para darle un toque único a tu set up",
       "img": "/products_img/stickerlogo.png",
-      "rating":{"rate":4.6,
-		  "count":400},
+      "price":100,
 		  "stock":5,
-      
-      "category": "Stickers"
+      "category": "Accesorio"
     },
     {
       "id": 6,
-      "name": "Bayside + logo",
-      "price":300,
-      "date": "Ideal para el invierno!",
+      "title": "Bayside + logo",
       "description": "En el color que vos elijas y a medida!",
       "img": "/products_img/stickerbay.png",
-      "rating":{"rate":3.9,
-		  "count":70},
+      "price":300,
 		  "stock":5,
-      "category": "Stickers"
+      "category": "Accesorio"
     }
+
   ]

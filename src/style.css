@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Montserrat&familyitem-deta=Poppins:ital,wght@0,100;1,200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: white;
+    color: rgb(19, 12, 12)
+}
+
+a {
+    text-decoration: none;
+}
+a.active {
+    color: rgb(255, 255, 255);
+}
+
+h5 {
+    font-size: 1.5rem;
+}
+p{
+    font-size: 1.8rem;
+    font-size: sans-serif;
+}
+.icon {
+    height: 2em;
+    will-change: filter;
+    transition: filter 300ms;
+    background-color: rgb(11, 86, 90);
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.small-button {
+    background-color: #175864;
+    color: white;
+    font-size: 0.8rem;
+    width: 3rem; 
+    height:3rem; 
+    border-radius: 10px; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+.medium-button {
+    background-color: rgb(17, 153, 158);
+    color: white;
+    font-size: 1rem;
+}
+.large-button {
+    background-color: rgb(17, 153, 158);
+    color: white;
+    font-size: 1rem;
+    padding: 1rem 0.8rem; 
+    border-radius: 50%; 
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+
+.large-button:hover {
+    background-color: #0f99a3; 
+    transform: scale(1.1); 
+}
+
+
+.none {
+    grid-column: 2/3;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #175864;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.nav-menu {
+    background-color: #175864;
+    color: rgb(248, 246, 246);
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: end;
+    gap: 2rem;
+}
+
+.nav-link {
+    background-color: white;
+    border-radius: 5%; 
+    padding: 0.5rem 1rem; 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(8, 61, 71, 0.439); 
+    transition: background-color 0.3s ease; 
+}
+
+
+.nav-link:hover {
+    background-color: #C79215;
+    color: rgb(246, 246, 246);
+    transform: scale(1.1); 
+}
+
+
+.nav-logo {
+    width: 100px;
+    background-color: #1AA5C4;
+}
+
+
+.nav-cart {
+    background-color: rgb(127, 79, 134);
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2rem;
+}
+
+.nav-cart span {
+    background-color: rgb(79, 119, 134);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.nav a {
+    background-color: #1AA5C4;
+}
+
+.item-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.item-list {
+    display: grid;
+    grid-template-columns: repeat( 4 , 1fr);
+}
+.item-list h2 {
+    grid-column: 2/4;
+}
+
+.item-list p {
+    padding: 1000px;
+}
+
+.item {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin: 1rem;
+}
+.item-card-img {
+    width: 260px;
+}
+
+.detail-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 7rem;
+}
+.detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left; /* Cambiar a izquierda para que coincida con Amazon */
+    max-width: 800px;
+}
+.detail-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #ddd; /* Agregar un borde para separar los detalles */
+    padding: 20px;
+    margin: 10px;
+    width: 300px; /* Ajusta el ancho según tus necesidades */
+}
+.detail-card-price{
+    font-size: 1.5rem; /* Reducir el tamaño de fuente del precio */
+    color: #B12704; /* Utilizar un color similar al de Amazon */
+
+}
+.detail-card p {
+    margin-top: 10px;
+    font-size: 0.9rem; /* Ajustar el tamaño de fuente del texto */
+}
+.detail-card-img {
+    width: 150px;
+}
+.detail-count {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.detail-count h4 {
+    margin: 1rem;
+    font-size: 1.2rem; /* Ajustar el tamaño de fuente */
+}
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-inline: 2rem;
+}
+.cart a {
+    align-self: center;
+}
+.cart-item {
+    display: grid;
+    grid-template-columns: repeat( 7 , 1fr);
+    margin-bottom: 2rem;
+}
+.cart-item-title {
+    grid-column: 1/4;
+}
+.cart-item .medium-button {
+    border-radius: 50%;
+    background-color: red;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.cart-empty {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    margin-inline: 2rem;
+}
+.cart-foot {
+    display: grid;
+    grid-template-columns: repeat( 7 , 1fr);
+}
+.cart-foot p {
+    grid-column: 6/8;
+}
+
+.checkout-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+}
+.checkout-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.finalizar-compra-link {
+    display: inline-block;
+    padding: 0.8rem 0.6rem; /* Ajusta el padding para hacerlo más pequeño */
+    background-color: #a28e1b; /* Color amarillo */
+    color: white;
+    font-size: 0.8rem; /* Ajusta el tamaño de fuente para hacerlo más pequeño */
+    border-radius: 50%; /* Hacerlo redondo */
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 7rem; /* Espacio desde arriba */
+    margin-left: 2rem;
+}
+
+.item-detail-container {
+    /* Agrega el siguiente código para alinear el botón al centro del contenedor */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
